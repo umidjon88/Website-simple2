@@ -1,0 +1,106 @@
+header {
+  text-align: center;
+}
+
+.navbar {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myVideo {
+  border: 5px solid #5a5a5a;   /* qizil ramka */
+  border-radius: 15px;         /* burchaklarni yumaloqlash */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* soya */
+  background-color: #000;      /* player fon rangi */
+  height: 400px;
+  display: block;
+  margin: 20px auto;
+}
+
+#myAudio {
+  width: 400px;                 /* uzunlik */
+  border: none;
+  border-radius: 10px;           /* yumaloq burchak */
+  display: block;
+  margin: 20px auto;
+}
+
+
+header {
+  text-align: center;
+}
+
+.navbar {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* VIDEO PLAYER STYLE */
+#myVideo {
+  border: 5px solid #5a5a5a;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  background-color: #000;
+  height: 400px;
+  max-width: 100%;
+  width: 700px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* AUDIO PLAYER STYLE */
+#myAudio {
+  width: 400px;
+  max-width: 100%;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+/* 1) PLANSHEET (TABLET) – 768px dan kichik */
+@media (max-width: 768px) {
+  #myVideo {
+    height: 300px;
+    width: 100%;
+  }
+
+  #myAudio {
+    width: 90%;
+  }
+
+  .navbar {
+    font-size: 18px;
+  }
+}
+
+/* 2) TELEFON (MOBILE) – 480px dan kichik */
+@media (max-width: 480px) {
+  #myVideo {
+    height: 220px;
+    width: 100%;
+  }
+
+  #myAudio {
+    width: 100%;
+  }
+
+  .navbar {
+    font-size: 16px;
+  }
+}
+
