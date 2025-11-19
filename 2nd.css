@@ -1,8 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('pexels-joshua-welch-763172-1624600.jpg'); /* rasm manzili */
+  background-size: cover;   /* RESPONSIVE qiladi */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: aliceblue;
+}
 
 
 header {
   text-align: center;
-  background-color: gray;
+  background-color: rgba(118, 153, 77, 0.342);
   padding: 10px;
   color: white;
   margin-bottom: 20px;
@@ -55,10 +65,10 @@ header {
 
 /* VIDEO PLAYER STYLE */
 #myVideo {
-  border: 5px solid #5a5a5a;
+  border: 5px solid #2a55069d;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-  background-color: #000;
+  background-color: #000000;
   height: 400px;
   max-width: 100%;
   width: 700px;
